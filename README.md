@@ -38,6 +38,8 @@ A ```Neural Network``` for classification of ```Binary options``` as a call or p
 ```
 git clone git@github.com:Varun487/BinaryOptions_DeepLearning.git
 
+pip install -r requirements.txt
+
 ```
 
 # Project members
@@ -45,3 +47,4 @@ git clone git@github.com:Varun487/BinaryOptions_DeepLearning.git
 1. Varun Seshu - PES2201800074
 2. Hritik Shanbhag - PES2201800082
 3. Shashwath S Kumar - PES2201800623
+\
