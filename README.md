@@ -24,7 +24,7 @@ A ```Neural Network``` for classification of ```Binary options``` as a call or p
 
 * We also provide notebooks to create, test, train and tweak the model.
 
-## Web Site
+## Webapp
 
 * We also provide a website to interact with the model and perform backtests on custom data.
 
