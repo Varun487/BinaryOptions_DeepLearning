@@ -2,7 +2,7 @@
 
 ## What is the project ?
 
-To build a ```Neural Network``` for classification of ```Binary options``` as a call or put option within a given timeframe.
+A ```Neural Network``` for classification of ```Binary options``` as a call or put option within a given timeframe.
 
 ## What are binary options ?
 
