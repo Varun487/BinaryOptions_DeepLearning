@@ -130,3 +130,5 @@ dmypy.json
 
 # project files
 .idea/
+TDL_Project_Data/
+secret_key.py
