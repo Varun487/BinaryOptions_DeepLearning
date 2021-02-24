@@ -40,11 +40,13 @@ git clone git@github.com:Varun487/BinaryOptions_DeepLearning.git
 cd BinaryOptions_DeepLearning
 
 pip3 install -r requirements.txt
-
-"API_KEY = <Enter your api key here>" > secret_key.py
-
+```
+2. We are sourcing data from Alpha Vantage. You can get your ```secret Api key``` [here](https://www.alphavantage.co/support/#api-key).
+3. After getting your ```Api key```, make a file in the BinaryOptions_DeepLearning folder called ```secret_key.py```.
+4. Add the line ```API_KEY = <Enter your api key here>``` in ```secret_key.py```
+5. Finally, to download the dataset, run:
+```
 python3 collection.py
-
 ```
 
 # Project members
