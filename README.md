@@ -54,4 +54,3 @@ python3 collection.py
 1. Varun Seshu - PES2201800074
 2. Hritik Shanbhag - PES2201800082
 3. Shashwath S Kumar - PES2201800623
-HI
