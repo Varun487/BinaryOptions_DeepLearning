@@ -18,6 +18,24 @@ A ```Neural Network``` for the classification of ```Binary options``` as a call 
 
 * The model classifies whether the closing price would be above/below the strike price before the expiry of our time period allowing us to purchase the appropriate binary option, thus beating the market and turning a profit.
 
+## Baseline to outperform
+
+* Investment in stock for the same period of time we are conducting binary options trading (long and short term)
+
+## Assumptions
+
+* A 50% return in case of a successful trade
+* A 100% loss in case of a unsuccessful trade
+
+* Profit calculations based on assumptions -
+
+| % of successful trades | Return % on initial investment|  
+| ---   | --- |  
+|  70   | 5  |  
+|  80   | 20 |  
+|  90   | 35 |  
+|  100  | 50 |  
+
 ## Jupyter notebook
 
 * We provide a jupyter notebook to interact with the model and perform back tests.
@@ -54,4 +72,42 @@ python3 collection.py
 1. Varun Seshu - PES2201800074
 2. Hritik Shanbhag - PES2201800082
 3. Shashwath S Kumar - PES2201800623
-.
+
+# TODO
+1. Preprocessing
+    - Assume 50% return per trade
+        - Win 70% of trades -> 5% ROI -> Least needed to be profitable
+        - Win 80% of trades -> 20% ROI
+        - Win 90% of trades -> 35% ROI
+        - Win 100% of trades -> 50% ROI
+2. Models
+    - Input
+        - Open
+        - High
+        - Low
+        - Close
+        - Volume
+        - Time stamp
+        - Technical Indicators to compute (for different time periods)
+            - SMA
+            - EMA
+            - MACD
+            - ROC
+            - Momentum
+            - RSI
+            - BB
+            - CCI
+    - Build multiple models 
+        - Classification
+            - Classes for prediction
+                - Up and Down + Threshold for no action after predictions
+                - Up, Down and No_Action
+        - Regression
+            - Predict prices and apply rules to decide when to skip trades
+        - Choose either the best model, or an ensemble which gives the highest accuracy
+        - If no model provides an accuracy above 70%, show that binary options trading is not worth the investment
+3. Back testing report
+    - Create a back testing report showing performance of model, taking into account
+        - risk
+        - account size
+    
