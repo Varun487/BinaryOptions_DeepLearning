@@ -40,9 +40,9 @@ A ```Neural Network``` for the classification of ```Binary options``` as a call 
 
 ## Jupyter notebook
 
-* We provide a jupyter notebook to interact with the model and perform back tests.
+* A jupyter notebook to interact with the model and perform back tests.
 
-* We also provide notebooks to create, test, train and tweak the model.
+* Notebooks to create, test, train and tweak the model.
 
 ## Webapp
 
@@ -104,6 +104,13 @@ python3 collection.py
         - Time stamp
         - All technical indicators computed
     - Build multiple models 
+        - Different types of models for both classification and regression
+            - LSTM
+            - GRU
+            - Transformer
+            - Informer
+            - CNN
+            - LSTF
         - Classification
             - Classes for prediction
                 - Up and Down + Threshold for no action after predictions
