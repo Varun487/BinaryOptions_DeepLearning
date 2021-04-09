@@ -36,6 +36,8 @@ A ```Neural Network``` for the classification of ```Binary options``` as a call 
 |  90   | 35 |  
 |  100  | 50 |  
 
+###### READ AS: Need to win at least 70% of trades to make 5% profit on initial investment
+
 ## Jupyter notebook
 
 * We provide a jupyter notebook to interact with the model and perform back tests.
@@ -75,11 +77,23 @@ python3 collection.py
 
 # TODO
 1. Preprocessing
-    - Assume 50% return per trade
-        - Win 70% of trades -> 5% ROI -> Least needed to be profitable
-        - Win 80% of trades -> 20% ROI
-        - Win 90% of trades -> 35% ROI
-        - Win 100% of trades -> 50% ROI
+    - Understand data
+    - Change data according to time periods
+        - 1 min
+        - 5 min
+        - 10 min
+        - 15 min
+        - 30 min
+        - 1 hr
+    - Technical Indicators to compute (for different time periods)
+        - SMA
+        - EMA
+        - MACD
+        - ROC
+        - Momentum
+        - RSI
+        - BB
+        - CCI
 2. Models
     - Input
         - Open
@@ -88,15 +102,7 @@ python3 collection.py
         - Close
         - Volume
         - Time stamp
-        - Technical Indicators to compute (for different time periods)
-            - SMA
-            - EMA
-            - MACD
-            - ROC
-            - Momentum
-            - RSI
-            - BB
-            - CCI
+        - All technical indicators computed
     - Build multiple models 
         - Classification
             - Classes for prediction
@@ -108,6 +114,6 @@ python3 collection.py
         - If no model provides an accuracy above 70%, show that binary options trading is not worth the investment
 3. Back testing report
     - Create a back testing report showing performance of model, taking into account
-        - risk
+        - risk per trade
         - account size
     
