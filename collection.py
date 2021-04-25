@@ -3,10 +3,6 @@ import requests
 from secret_key import API_KEY
 
 
-# Put instructions in the README to rebuild this project like:
-# Ensure that you create a secret_key.py file
-# Mention site to get the key
-
 def print_progress(command):
     print()
     print("==============================")

@@ -133,3 +133,4 @@ dmypy.json
 TDL_Project_Data/
 secret_key.py
 LiteratureSurvey4.pdf
+.vscode/

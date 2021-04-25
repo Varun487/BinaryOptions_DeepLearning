@@ -38,17 +38,11 @@ A ```Neural Network``` for the classification of ```Binary options``` as a call 
 
 ###### READ AS: Need to win at least 70% of trades to make 5% profit on initial investment
 
-## Jupyter notebook
+## Jupyter notebooks
 
 * A jupyter notebook to interact with the model and perform back tests.
 
 * Notebooks to create, test, train and tweak the model.
-
-## Webapp
-
-* We also provide a website to interact with the model and perform back tests on custom data.
-
-* Click here to go to the website.
 
 # To replicate this project on your computer
 
@@ -76,51 +70,26 @@ python3 collection.py
 3. Shashwath S Kumar - PES2201800623
 
 # TODO
-1. Preprocessing
-    - Understand data
-    - Change data according to time periods
-        - 1 min
-        - 5 min
-        - 10 min
-        - 15 min
-        - 30 min
-        - 1 hr
-    - Technical Indicators to compute (for different time periods)
-        - SMA
-        - EMA
-        - MACD
-        - ROC
-        - Momentum
-        - RSI
-        - BB
-        - CCI
-2. Models
-    - Input
-        - Open
-        - High
-        - Low
-        - Close
-        - Volume
-        - Time stamp
-        - All technical indicators computed
-    - Build multiple models 
-        - Different types of models for both classification and regression
-            - LSTM
-            - GRU
-            - Transformer
-            - Informer
-            - CNN
-            - LSTF
-        - Classification
-            - Classes for prediction
-                - Up and Down + Threshold for no action after predictions
-                - Up, Down and No_Action
-        - Regression
-            - Predict prices and apply rules to decide when to skip trades
-        - Choose either the best model, or an ensemble which gives the highest accuracy
-        - If no model provides an accuracy above 70%, show that binary options trading is not worth the investment
-3. Back testing report
-    - Create a back testing report showing performance of model, taking into account
-        - risk per trade
-        - account size
-    
+1. Collection of data ![DONE]
+2. Preprocessing ![DONE]
+	- Remove NaN values ![DONE]
+	- Add company name ![DONE]
+	- Put prices 1, 2, 3, 5, 10, 15, 30, 60 mins ahead columns ![DONE]
+	- Put indicators values as columns ![DONE]
+		- SMA ![DONE]
+		- EMA ![DONE]
+		- MACD ![DONE]
+		- RSI ![DONE]
+		- BB ![DONE]
+3. Models ![INCOMPLETE]
+4. Back testing ![INCOMPLETE]
+
+[DONE]: https://img.shields.io/badge/DONE-brightgreen
+[INCOMPLETE]: https://img.shields.io/badge/INCOMPLETE-red
+[BUG]: https://img.shields.io/badge/BUG-red
+[BUGFIXED]: https://img.shields.io/badge/BUG-FIXED-brightgreen
+[FEATUREINCOMPLETE]: https://img.shields.io/badge/FEATURE-INCOMPLETE-red
+[FEATURECOMPLETE]: https://img.shields.io/badge/FEATURE-COMPLETE-brightgreen
+[MEETINGINCOMPLETE]: https://img.shields.io/badge/MEETING-INCOMPLETE-red
+[DOCINCOMPLETE]: https://img.shields.io/badge/DOC-INCOMPLETE-red
+[DOCCOMPLETE]: https://img.shields.io/badge/DOC-COMPLETE-brightgreen
