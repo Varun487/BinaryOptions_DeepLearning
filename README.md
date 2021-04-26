@@ -82,6 +82,10 @@ python3 collection.py
 		- RSI ![DONE]
 		- BB ![DONE]
 3. Models ![INCOMPLETE]
+	- LSTMs `Varun`
+	- GRUs 
+	- CNNs `Hritik`
+	- Transformers `Shashwath`
 4. Back testing ![INCOMPLETE]
 
 [DONE]: https://img.shields.io/badge/DONE-brightgreen
