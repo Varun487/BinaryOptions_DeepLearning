@@ -24,7 +24,7 @@ A ```Neural Network``` for the classification of ```Binary options``` as a call 
 
 ## Assumptions
 
-* A 50% return in case of a successful trade
+* A 60% return in case of a successful trade
 * A 100% loss in case of a unsuccessful trade
 
 * Profit calculations based on assumptions -
@@ -81,12 +81,15 @@ python3 collection.py
 		- MACD ![DONE]
 		- RSI ![DONE]
 		- BB ![DONE]
-3. Models ![INCOMPLETE]
-	- LSTMs `Varun`
-	- GRUs 
-	- CNNs `Hritik`
-	- Transformers `Shashwath`
+3. Models ![DONE]
+	- LSTMs `Varun` ![DONE]
+	- Transformers `Shashwath` ![DONE]
 4. Back testing ![INCOMPLETE]
+	- Load all models, calculate accuracy, precision and recall for all companies and datasets ![INCOMPLETE]
+	- Show best models with returns ![INCOMPLETE]
+	- Visualizations of datasets, indicators and predictions ![INCOMPLETE]
+5. Mock Session 1
+6. Mock Session 2
 
 [DONE]: https://img.shields.io/badge/DONE-brightgreen
 [INCOMPLETE]: https://img.shields.io/badge/INCOMPLETE-red
