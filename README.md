@@ -85,11 +85,12 @@ python3 collection.py
 	- LSTMs `Varun` ![DONE]
 	- Transformers `Shashwath` ![DONE]
 4. Back testing ![INCOMPLETE]
-	- Load all models, calculate accuracy, precision and recall for all companies and datasets ![INCOMPLETE]
-	- Show best models with returns ![INCOMPLETE]
-	- Visualizations of datasets, indicators and predictions ![INCOMPLETE]
-5. Mock Session 1
-6. Mock Session 2
+	- Load all models, calculate accuracy, precision and recall for all companies and datasets ![DONE]
+	- Show best models with returns ![DONE]
+	- Visualizations of datasets, indicators and predictions ![DONE]
+	- Add tranformer predictions to backtesting `Shashwath` ![INCOMPLETE]
+5. Mock Session 1 ![INCOMPLETE]
+6. Mock Session 2 ![INCOMPLETE]
 
 [DONE]: https://img.shields.io/badge/DONE-brightgreen
 [INCOMPLETE]: https://img.shields.io/badge/INCOMPLETE-red
