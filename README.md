@@ -84,11 +84,11 @@ python3 collection.py
 3. Models ![DONE]
 	- LSTMs `Varun` ![DONE]
 	- Transformers `Shashwath` ![DONE]
-4. Back testing ![INCOMPLETE]
+4. Back testing ![DONE]
 	- Load all models, calculate accuracy, precision and recall for all companies and datasets ![DONE]
 	- Show best models with returns ![DONE]
 	- Visualizations of datasets, indicators and predictions ![DONE]
-	- Add tranformer predictions to backtesting `Shashwath` ![INCOMPLETE]
+	- Add tranformer predictions to backtesting `Shashwath` ![DONE]
 5. Mock Session 1 ![INCOMPLETE]
 6. Mock Session 2 ![INCOMPLETE]
 
