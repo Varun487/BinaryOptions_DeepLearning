@@ -69,29 +69,6 @@ python3 collection.py
 2. Hritik Shanbhag - PES2201800082
 3. Shashwath S Kumar - PES2201800623
 
-# TODO
-1. Collection of data ![DONE]
-2. Preprocessing ![DONE]
-	- Remove NaN values ![DONE]
-	- Add company name ![DONE]
-	- Put prices 1, 2, 3, 5, 10, 15, 30, 60 mins ahead columns ![DONE]
-	- Put indicators values as columns ![DONE]
-		- SMA ![DONE]
-		- EMA ![DONE]
-		- MACD ![DONE]
-		- RSI ![DONE]
-		- BB ![DONE]
-3. Models ![DONE]
-	- LSTMs `Varun` ![DONE]
-	- Transformers `Shashwath` ![DONE]
-4. Back testing ![DONE]
-	- Load all models, calculate accuracy, precision and recall for all companies and datasets ![DONE]
-	- Show best models with returns ![DONE]
-	- Visualizations of datasets, indicators and predictions ![DONE]
-	- Add tranformer predictions to backtesting `Shashwath` ![DONE]
-5. Mock Session 1 ![INCOMPLETE]
-6. Mock Session 2 ![INCOMPLETE]
-
 [DONE]: https://img.shields.io/badge/DONE-brightgreen
 [INCOMPLETE]: https://img.shields.io/badge/INCOMPLETE-red
 [BUG]: https://img.shields.io/badge/BUG-red
